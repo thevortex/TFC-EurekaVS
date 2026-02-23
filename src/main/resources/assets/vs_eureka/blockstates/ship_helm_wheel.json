@@ -1,0 +1,67 @@
+{
+  "variants": {
+    "": {
+      "model": "tfceureka:block/oak_ship_helm"
+    },
+    "wood=oak": {
+      "model": "tfceureka:block/oak_ship_helm"
+    },
+    "wood=acacia": {
+      "model": "tfceureka:block/acacia_ship_helm"
+    },
+    "wood=birch": {
+      "model": "tfceureka:block/birch_ship_helm"
+    },
+    "wood=spruce": {
+      "model": "tfceureka:block/spruce_ship_helm"
+    },
+    "wood=blackwood": {
+      "model": "tfceureka:block/blackwood_ship_helm"
+    },
+    "wood=pine": {
+      "model": "tfceureka:block/pine_ship_helm"
+    },
+    "wood=rosewood": {
+      "model": "tfceureka:block/rosewood_ship_helm"
+    },
+    "wood=willow": {
+      "model": "tfceureka:block/willow_ship_helm"
+    },
+    "wood=douglas_fir": {
+      "model": "tfceureka:block/douglas_fir_ship_helm"
+    },
+    "wood=kapok": {
+      "model": "tfceureka:block/kapok_ship_helm"
+    },
+    "wood=sycamore": {
+      "model": "tfceureka:block/sycamore_ship_helm"
+    },
+    "wood=chestnut": {
+      "model": "tfceureka:block/chestnut_ship_helm"
+    },
+    "wood=palm": {
+      "model": "tfceureka:block/palm_ship_helm"
+    },
+    "wood=white_cedar": {
+      "model": "tfceureka:block/white_cedar_ship_helm"
+    },
+    "wood=hickory": {
+      "model": "tfceureka:block/hickory_ship_helm"
+    },
+    "wood=maple": {
+      "model": "tfceureka:block/maple_ship_helm"
+    },
+    "wood=aspen": {
+      "model": "tfceureka:block/aspen_ship_helm"
+    },
+    "wood=ash": {
+      "model": "tfceureka:block/ash_ship_helm"
+    },
+    "wood=sequoia": {
+      "model": "tfceureka:block/sequoia_ship_helm"
+    },
+    "wood=mangrove": {
+      "model": "tfceureka:block/mangrove_ship_helm"
+    }
+  }
+}

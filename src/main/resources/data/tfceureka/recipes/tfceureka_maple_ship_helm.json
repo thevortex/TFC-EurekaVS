@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "tfceureka:maple_ship_helm",
+		"count": 1
+	},
+	"pattern": [
+		"WWW",
+		"PBP",
+		"WRW"
+	],
+	"key": {
+		"W": {
+			"item": "tfc:wood/lumber/maple"
+		},
+		"B": {
+			"item": "tfc:brass_mechanisms"
+		},
+		"R": {
+			"item": "tfc:metal/rod/bronze"
+		},
+		"P": {
+			"item": "tfc:metal/sheet/bronze"
+		}
+	}
+}

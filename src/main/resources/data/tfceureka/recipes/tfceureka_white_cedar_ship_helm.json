@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result": {
+		"item": "tfceureka:white_cedar_ship_helm",
+		"count": 1
+	},
+	"pattern": [
+		"WWW",
+		"PBP",
+		"WRW"
+	],
+	"key": {
+		"W": {
+			"item": "tfc:wood/lumber/white_cedar"
+		},
+		"B": {
+			"item": "tfc:brass_mechanisms"
+		},
+		"R": {
+			"item": "tfc:metal/rod/bronze"
+		},
+		"P": {
+			"item": "tfc:metal/sheet/bronze"
+		}
+	}
+}

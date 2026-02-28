@@ -1,0 +1,21 @@
+{
+  "entries": {
+    "minecraft:water": 0.0,
+    "minecraft:lava": 0.0,
+    "tfc:salt_water": 0.0,
+    "tfc:spring_water": 0.0,
+    "tfc:river_water": 0.0,
+    "#tfc:rock/raw": 0.0,
+    "#tfc:rock/hardened": 0.0,
+    "#tfc:rock/gravel": 0.0,
+    "#tfc:rock/cobble": 0.0,
+    "#tfc:dirt": 0.0,
+    "#tfc:grass": 0.0,
+    "#tfc:sand": 0.0,
+    "#tfc:clay": 0.0,
+    "#tfc:peat": 0.0,
+    "#minecraft:leaves": 0.0,
+    "#tfc:tfc_leaves": 0.0
+  }
+}
+

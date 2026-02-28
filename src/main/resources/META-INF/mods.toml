@@ -31,6 +31,11 @@ description = '''
     Compat for TFC/VS2 Eureka.
     '''
 
+# Mixin configuration for ship control fix
+[[mixins]]
+config = "tfceureka.mixins.json"
+
+
 [[dependencies.tfceureka]]
 modId = "forge"
 mandatory = true

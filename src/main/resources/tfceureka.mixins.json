@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.thevortex.tfceureka.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tfceureka.refmap.json",
+  "mixins": [],
+  "client": [
+    "client.ShipHelmControlMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
+

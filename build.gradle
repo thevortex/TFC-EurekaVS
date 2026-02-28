@@ -76,11 +76,15 @@ dependencies {
     // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
     // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
     compileOnly("org.jetbrains:annotations:24.1.0")
-
+    annotationProcessor("org.spongepowered:mixin:0.8.5:processor")
     modImplementation("curse.maven:terrafirmacraft-302973:${project.terrafirmacraft_file}")
     modImplementation("curse.maven:valkyrien-skies-258371:7568034")
     modImplementation("curse.maven:eureka-ships-654384:7419758")
     modImplementation("curse.maven:kotlin-for-forge-351264:7291067")
+    modImplementation("curse.maven:create-clockwork-807792:7451190")
+    modImplementation("curse.maven:trackwork-1057662:7429078")
+    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:${project.mixinextras_version}"))
+    modImplementation(jarJar("io.github.llamalad7:mixinextras-forge:${project.mixinextras_version}"))
     modRuntimeOnly("vazkii.patchouli:Patchouli:${project.minecraft_version}-${project.patchouli_version}-FORGE")
     modRuntimeOnly("mezz.jei:jei-${project.minecraft_version}-forge:${project.jei_version}") { transitive = false }
     modRuntimeOnly("curse.maven:jade-324717:5072729")
@@ -129,7 +133,6 @@ jar {
     // add some additional metadata to the jar manifest
     manifest {
         attributes([
-                "MixinConfigs"            : "gregitas_core.mixins.json",
                 "Specification-Title"     : mod_id,
                 "Specification-Vendor"    : mod_authors,
                 "Specification-Version"   : "1",
